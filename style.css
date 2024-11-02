@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: rgb(26 12 45);
+}
+
+nav {
+  background-color: rgba(4, 1, 28, 1);
+}
+
+.btn-start {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+}
+
+.btn-search {
+  background-color: rgba(30, 27, 51, 1);
+  border: 1px solid rgba(231, 231, 231, 0.4);
+}
+
+main {
+  /* background-color: rgb(9, 9, 9); */
+}
+
+.main {
+  background-image: url(./img/Ellipse\ 13.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.trending-section,
+.selected-section {
+  background-image: url(./img/Ellipse\ 13.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main_left-block {
+  background-image: url(./img/space.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main_nfts {
+  color: #8d1392;
+}
+
+.btn-create {
+  background: rgba(30, 27, 51, 1);
+}
+
+.btn-explore {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+  border: 1px solid rgba(231, 231, 231, 0.4);
+}
+
+.bottom-content {
+  background-image: url(./img/pink.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 70px;
+}
+
+.background-main_img {
+  margin-top: -78px;
+  width: 466px;
+}
+
+.container-image {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 150px;
+  left: -80px;
+}
+
+.text-world {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-next {
+  color: #7040f2;
+}
+.background-text {
+  background: linear-gradient(90deg, #0500fa 0%, #e01e5a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 96px; /* Размер фоново текста */
+  font-weight: bold;
+
+  white-space: nowrap; /* Чтобы текст не переносился */
+}
+
+.card-body {
+  background: #1e1b33;
+}
+
+.cards-nft_btn {
+  background: #1e1b33;
+  border: 0.5px solid #e7e7e766;
+}
+
+.cards-nft_btn-second {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+}
+
+.cards-collections,
+.btn-collections {
+  background: rgba(30, 27, 51, 1);
+  border: 1px solid rgba(231, 231, 231, 0.4);
+}
+
+.btn-collections_gradient {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+}
+
+.bottom-trending_block {
+  border: 0.5px solid rgba(231, 231, 231, 0.4);
+}
+
+.card_banner {
+  background: linear-gradient(89.62deg, #0500fa 7.09%, #e01e5a 92.23%);
+  border: 1px solid rgba(231, 231, 231, 0.4);
+  color: white;
+}
